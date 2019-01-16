@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="keywords" content="gomycode , developpement , web designe">
+      <meta name="author" content="Moetez Arfa">
+      <title>Welcome | With love </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              Moetez Arfa
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li class="current"><a href="projet.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="content">
+                  
+
+
+                  <h1>Best regards to all the members of Gomycode Family : </h1>
+                  i am so grateful to be a part of gomycode students,
+                  it was a great experience for me to be there , i loved uh all <br>
+                  i just want to say thank you guys for those precious days , im so in love with coding now cause i thought that there isn't girls in tunisia that loves coding , but in Gomycode i didn't just met girls who love coding , the girls i met there are so fuckin' cute ♥ <br>
+                  Finally i wanna say thank you again guys , 
+                  ill come back to this lovely place again as soon as possible.                   </p>
+
+            </div>
+      </div>
+      <footer>
+            <p>Moetez Mano, Copyright &copy; 2K18</p>
+          </footer>
+            <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+      
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC0G5JSMWOuwSLws73rQf6V6HdN8PgwYX4",
+    authDomain: "gomycodeprojet.firebaseapp.com",
+    databaseURL: "https://gomycodeprojet.firebaseio.com",
+    projectId: "gomycodeprojet",
+    storageBucket: "gomycodeprojet.appspot.com",
+    messagingSenderId: "6786816612"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>
